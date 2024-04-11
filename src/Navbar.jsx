@@ -59,7 +59,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           {/* Logo and Links section */}
           <div className="flex items-center gap-4">
-            <a href="#" className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl">Eshop</a>
+            <a href="/home" className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl">Eshop</a>
             {/* Menu Items */}
             <div className="hidden lg:block">
               <ul className="flex items-center gap-8 ml-8">
