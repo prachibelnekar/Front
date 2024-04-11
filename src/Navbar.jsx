@@ -104,7 +104,7 @@ const Navbar = ({ handleOrderPopup }) => {
            
           >
             <BiCart size="2rem"/>
-            {!isEmpty && <span className=" border-gray-950 dark:border-white border rounded-full  place-items-center absolute h-6 w-6 left-[1395px] top-[4px] text-center text-black dark:text-white group-hover:text-primary">{totalItems}</span>}
+            {!isEmpty && <span className=" border-gray-950 dark:border-white border-2 rounded-full  place-items-center absolute h-6 w-6 left-[1395px] top-[4px] text-center text-black dark:text-white group-hover:text-primary">{totalItems}</span>}
             <span className={isEmpty ? "" : "ml-[-13px]"}>&nbsp;Cart</span>
           </Link>
          
